@@ -32,6 +32,16 @@
         android:layout_height="wrap_content"
         android:text="College"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Degree"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/DegreeList"></Spinner>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -25,12 +25,14 @@
         android:id="@+id/pass"
         android:inputType="textPassword"/>
     <Button
+        android:background="@color/colorAccent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
         android:id="@+id/log"/>
 
     <Button
+        android:background="@color/colorlogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Register"
