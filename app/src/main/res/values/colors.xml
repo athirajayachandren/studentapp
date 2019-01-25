@@ -5,4 +5,9 @@
     <color name="colorAccent">#D81B60</color>
     <color name="colorlogin">#0080bb</color>
     <color name="colordark">#aa6300</color>
+    <color name="startcolor">#328779</color>
+    <color name="endcolor">#d6ce75</color>
+    <color name="scolor">#8dbf96</color>
+    <color name="ecolor">#51691e</color>
+
 </resources>

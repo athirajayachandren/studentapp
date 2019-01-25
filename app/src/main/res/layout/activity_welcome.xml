@@ -4,11 +4,46 @@
     android:background="#aa7700"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/circleshape"
+        android:layout_margin="15dp"
+        android:id="@+id/add"/>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/subcolor"
+        android:layout_margin="15dp"
+        android:id="@+id/sub"/>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/mul"
+        android:layout_margin="15dp"
+        android:id="@+id/mul"/>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/div"
+        android:layout_margin="15dp"
+        android:id="@+id/div"/>
+
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="WELCOME STUDENT"
         android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="viewall"
+        android:id="@+id/view"/>
 
     <Button
         android:layout_width="wrap_content"
