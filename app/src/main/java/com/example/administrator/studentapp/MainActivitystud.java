@@ -12,7 +12,7 @@ import android.widget.Toast;
 public class MainActivitystud extends AppCompatActivity {
 
     EditText s1,s2;
-    Button b1,b2;
+    Button b1,b2,b3;
     String getsid,getpassword,checkusername;
     String id= "mzc";
     String pass= "college";
@@ -38,6 +38,7 @@ public class MainActivitystud extends AppCompatActivity {
         s2=(EditText)findViewById(R.id.pass);
         b1=(Button)findViewById(R.id.log);
         b2=(Button)findViewById(R.id.reg);
+        b3=(Button)findViewById(R.id.viewapp);
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -76,6 +77,16 @@ public class MainActivitystud extends AppCompatActivity {
                     startActivity(j);
 
                 }
+        });
+
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v)
+            {
+                Intent j = new Intent(getApplicationContext(), userlist.class);
+                startActivity(j);
+
+            }
         });
         }
 
